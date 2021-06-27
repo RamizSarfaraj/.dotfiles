@@ -23,7 +23,7 @@ ji(){
 
 e() {
   # open file in presenet directory. Respects .gitignore.
-  local dracula="fg:#d6acff,fg+:#ffb86c,border:#50fa7b"
+  local dracula="fg:#ffb86c,fg+:#d6acff,border:#50fa7b"
   local Preview="batcat --color=always --theme=zenburn --style='numbers,header,changes' --line-range=:500 {}"
   local Bind="space:toggle-preview"
   local file="$(fdfind -t f -H -I -E .git/ | fzf -m  --no-bold --margin 3,2% --color="$dracula" --preview $Preview --preview-window=right:60% --bind="$Bind")"
@@ -36,7 +36,7 @@ e() {
 
 ee() {
   # open any file on system that isn't ignored by git.
-  local dracula="fg:#d6acff,fg+:#ffb86c,border:#50fa7b"
+  local dracula="fg:#ffb86c,fg+:#d6acff,border:#50fa7b"
   local Preview="batcat --color=always --theme=zenburn --style='numbers,header,changes' --line-range=:500 {}"
   local Bind="space:toggle-preview"
   cd $HOME
