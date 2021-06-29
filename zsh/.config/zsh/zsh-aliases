@@ -50,7 +50,6 @@ alias tm='tmux -2u'
 
 alias open='xdg-open'
 alias rm='rm -Iv '
-alias rmd='rm -rI' # delete dirs.
 alias rmf='rm -rf'
 alias mv='mv -iv '
 alias mkdir='mkdir -pv '
