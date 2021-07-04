@@ -5,24 +5,33 @@
 create-env(){
   while
   do
-    echo -n -e "\n\tUsing which tool? \n\n1. Generic python3\n2. virtualenv\n3. Quit.\n\n"
+    echo -e "\n=======================================================================\n"
+    echo -n -e "\n\t\tUsing which tool? \n\n\t1. Generic python3\n\t2. virtualenv\n\t3. Quit.\n\n"
 
     echo -n -e "\n Enter answer? [1/2/3] : "
     read chc
 
     case "$chc" in
       1)
+        echo -e "\n-----------------------------"
         echo -n -e "\nName of the environment : "
         read name
         if [[ -n "$name" ]]; then
+            if [[!-d $HOME/.venv/ ]]; then
+                mkdir -p $HOME/.venv/
+            fi
             python3 -m venv $HOME/.venv/"$name"
         fi
         break
         ;;
       2)
+        echo -e "\n-----------------------------"
         echo -n -e "\nName of the environment : "
         read name
         if [[ -n "$name" ]]; then
+            if [[!-d $HOME/.venv/ ]]; then
+                mkdir -p $HOME/.venv/
+            fi
             virtualenv $HOME/.venv/"$name"
         fi
         break
