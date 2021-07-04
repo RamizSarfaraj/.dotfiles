@@ -16,10 +16,10 @@ create-env(){
         echo -e "\n-----------------------------"
         echo -n -e "\nName of the environment : "
         read name
+        if [[ ! -d $HOME/.venv/ ]]; then
+            mkdir -p $HOME/.venv/
+        fi
         if [[ -n "$name" ]]; then
-            if [[!-d $HOME/.venv/ ]]; then
-                mkdir -p $HOME/.venv/
-            fi
             python3 -m venv $HOME/.venv/"$name"
         fi
         break
@@ -28,10 +28,10 @@ create-env(){
         echo -e "\n-----------------------------"
         echo -n -e "\nName of the environment : "
         read name
+        if [[ ! -d $HOME/.venv/ ]]; then
+            mkdir -p $HOME/.venv/
+        fi
         if [[ -n "$name" ]]; then
-            if [[!-d $HOME/.venv/ ]]; then
-                mkdir -p $HOME/.venv/
-            fi
             virtualenv $HOME/.venv/"$name"
         fi
         break
