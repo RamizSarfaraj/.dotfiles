@@ -16,10 +16,6 @@ To install these dotfiles you would need :<br>
 
 ## Installation
 
-```clone
-git clone https://github.com/RamizSarfaraj/.dotfiles.git $HOME/.dotfiles/
-```
-
 ```
 git clone git@github.com:RamizSarfaraj/.dotfiles.git $HOME/.dotfiles/
 ```
