@@ -11,7 +11,7 @@
 ## Prerequisites
 
 To install these dotfiles you would need :<br>
-[stow](https://www.gnu.org/software/stow/) and<br>
+[stow](https://www.gnu.org/software/stow/) <br>
 [git](https://git-scm.com/)
 
 ## Installation
