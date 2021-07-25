@@ -1,0 +1,8 @@
+CoenraadS.bracket-pair-colorizer-2
+eamodio.gitlens
+GitHub.github-vscode-theme
+ms-python.python
+ms-python.vscode-pylance
+PKief.material-icon-theme
+ritwickdey.LiveServer
+vscodevim.vim
