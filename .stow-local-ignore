@@ -24,4 +24,4 @@ _darcs
 ^/README.*
 ^/LICENSE.*
 ^/COPYING
-^/packages
+^/packages/*.txt
