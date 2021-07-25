@@ -1,0 +1,33 @@
+{
+  //editor settings.
+  "workbench.colorTheme": "Tokyo Night",
+  "editor.fontSize": 12,
+  "editor.tabSize": 2,
+  "workbench.iconTheme": "material-icon-theme",
+  "window.menuBarVisibility": "toggle",
+
+  // vim settings.
+  "vim.easymotion": true,
+  "vim.smartRelativeLine": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [{ "before": ["k", "j"], "after": ["<Esc>"] }],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    { "before": ["gj"], "after": ["j"] },
+    { "before": ["gk"], "after": ["k"] },
+    { "before": ["<leader>", "d"], "after": ["d", "d"] },
+    { "before": ["<C-n>"], "commands": [":nohl"] },
+    { "before": ["<leader>", "w"], "commands": [":w"] },
+    { "before": ["<leader>", "x"], "commands": [":bdelete"] }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.wordWrap": "on",
+  "liveServer.settings.donotVerifyTags": true
+}
