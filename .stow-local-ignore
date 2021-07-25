@@ -24,5 +24,4 @@ _darcs
 ^/README.*
 ^/LICENSE.*
 ^/COPYING
-
-/Installation_to_do
+^/packages
