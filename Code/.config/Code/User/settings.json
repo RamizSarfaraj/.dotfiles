@@ -1,11 +1,4 @@
 {
-  //editor settings.
-  "workbench.colorTheme": "GitHub Dark Default",
-  "editor.fontSize": 12,
-  "editor.tabSize": 2,
-  "workbench.iconTheme": "material-icon-theme",
-  "window.menuBarVisibility": "toggle",
-
   // vim settings.
   "vim.easymotion": true,
   "vim.smartRelativeLine": true,
@@ -27,7 +20,15 @@
     "<C-a>": false,
     "<C-f>": false
   },
+
+  //editor settings
+  "workbench.colorTheme": "GitHub Dark Default",
+  "editor.fontSize": 12,
+  "editor.tabSize": 2,
+  "workbench.iconTheme": "material-icon-theme",
+  "window.menuBarVisibility": "toggle",
   "liveServer.settings.donotShowInfoMsg": true,
-  "editor.wordWrap": "on",
-  "liveServer.settings.donotVerifyTags": true
+  "editor.wordWrap": "off",
+  "liveServer.settings.donotVerifyTags": true,
+  "editor.formatOnSave": true
 }
