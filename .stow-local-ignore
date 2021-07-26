@@ -17,7 +17,6 @@ _darcs
 
 \.git
 \.gitignore
-/packages/*.txt
 
 .+~          # emacs backup files
 \#.*\#       # emacs autosave files
