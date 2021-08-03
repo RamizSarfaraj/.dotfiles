@@ -8,8 +8,8 @@
   "vim.hlsearch": true,
   "vim.insertModeKeyBindings": [{ "before": ["k", "j"], "after": ["<Esc>"] }],
   "vim.normalModeKeyBindingsNonRecursive": [
-    { "before": ["gj"], "after": ["j"] },
-    { "before": ["gk"], "after": ["k"] },
+    { "before": ["j"], "after": ["gj"] },
+    { "before": ["k"], "after": ["gk"] },
     { "before": ["<leader>", "d"], "after": ["d", "d"] },
     { "before": ["<C-n>"], "commands": [":nohl"] },
     { "before": ["<leader>", "w"], "commands": [":w"] },
