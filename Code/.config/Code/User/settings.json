@@ -30,5 +30,7 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.wordWrap": "off",
   "liveServer.settings.donotVerifyTags": true,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }
