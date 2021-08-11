@@ -6,21 +6,35 @@
   "vim.useSystemClipboard": true,
   "vim.useCtrlKeys": true,
   "vim.hlsearch": true,
-  "vim.insertModeKeyBindings": [{ "before": ["k", "j"], "after": ["<Esc>"] }],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["k", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
   "vim.normalModeKeyBindingsNonRecursive": [
-    { "before": ["j"], "after": ["gj"] },
-    { "before": ["k"], "after": ["gk"] },
-    { "before": ["<leader>", "d"], "after": ["d", "d"] },
-    { "before": ["<C-n>"], "commands": [":nohl"] },
-    { "before": ["<leader>", "w"], "commands": [":w"] },
-    { "before": ["<leader>", "x"], "commands": [":bdelete"] }
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["<leader>", "w"],
+      "commands": [":w"]
+    },
+    {
+      "before": ["<leader>", "x"],
+      "commands": [":bdelete"]
+    }
   ],
   "vim.leader": "<space>",
   "vim.handleKeys": {
     "<C-a>": false,
     "<C-f>": false
   },
-
   //editor settings
   "workbench.colorTheme": "GitHub Dark Default",
   "editor.fontSize": 12,
