@@ -53,6 +53,7 @@ alias rm='rm -Iv '
 alias rmf='rm -rf'
 alias mv='mv -iv '
 alias mkdir='mkdir -pv '
+alias md='mkdir'
 alias vcode='flatpak run com.vscodium.codium' # vcode for vscodium.
 
 
